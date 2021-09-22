@@ -1,5 +1,6 @@
 <?php
-include(__DIR__ . '/config.php');
+include(__DIR__ . '/../config.php');
+require_once __DIR__ . '/../vendor/autoload.php';
 use PhpAmqpLib\Wire\AMQPTable;
 use PhpAmqpLib\Message\AMQPMessage;
 use PhpAmqpLib\Exchange\AMQPExchangeType;
